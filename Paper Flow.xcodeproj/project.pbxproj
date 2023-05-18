@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CB15A5E2A169E0A007EFEB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A5D2A169E0A007EFEB0 /* AppDelegate.swift */; };
-		4CB15A602A169E0A007EFEB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A5F2A169E0A007EFEB0 /* ViewController.swift */; };
+		4CB15A602A169E0A007EFEB0 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A5F2A169E0A007EFEB0 /* EmptyViewController.swift */; };
 		4CB15A622A169E0B007EFEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB15A612A169E0B007EFEB0 /* Assets.xcassets */; };
-		4CB15A652A169E0B007EFEB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB15A632A169E0B007EFEB0 /* Main.storyboard */; };
 		4CB15A702A169E0B007EFEB0 /* Paper_FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A6F2A169E0B007EFEB0 /* Paper_FlowTests.swift */; };
 		4CB15A7A2A169E0B007EFEB0 /* Paper_FlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A792A169E0B007EFEB0 /* Paper_FlowUITests.swift */; };
 		4CB15A7C2A169E0B007EFEB0 /* Paper_FlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A7B2A169E0B007EFEB0 /* Paper_FlowUITestsLaunchTests.swift */; };
+		4CB15A8A2A16A08A007EFEB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A892A16A08A007EFEB0 /* main.swift */; };
+		4CB15A8D2A16A156007EFEB0 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A8C2A16A156007EFEB0 /* App.swift */; };
+		4CB15A8F2A16A179007EFEB0 /* App.Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A8E2A16A179007EFEB0 /* App.Delegate.swift */; };
+		4CB15A922A16A313007EFEB0 /* NSWindow + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A912A16A313007EFEB0 /* NSWindow + Extension.swift */; };
+		4CB15A962A16A453007EFEB0 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A952A16A453007EFEB0 /* Routable.swift */; };
+		4CB15A982A16A48E007EFEB0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A972A16A48E007EFEB0 /* Router.swift */; };
+		4CB15A9A2A16A768007EFEB0 /* App.WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A992A16A768007EFEB0 /* App.WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +40,21 @@
 
 /* Begin PBXFileReference section */
 		4CB15A5A2A169E0A007EFEB0 /* Paper Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paper Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CB15A5D2A169E0A007EFEB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CB15A5F2A169E0A007EFEB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CB15A5F2A169E0A007EFEB0 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 		4CB15A612A169E0B007EFEB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CB15A642A169E0B007EFEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CB15A662A169E0B007EFEB0 /* Paper_Flow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Paper_Flow.entitlements; sourceTree = "<group>"; };
 		4CB15A6B2A169E0B007EFEB0 /* Paper FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paper FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB15A6F2A169E0B007EFEB0 /* Paper_FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper_FlowTests.swift; sourceTree = "<group>"; };
 		4CB15A752A169E0B007EFEB0 /* Paper FlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paper FlowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB15A792A169E0B007EFEB0 /* Paper_FlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper_FlowUITests.swift; sourceTree = "<group>"; };
 		4CB15A7B2A169E0B007EFEB0 /* Paper_FlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper_FlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CB15A892A16A08A007EFEB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4CB15A8C2A16A156007EFEB0 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4CB15A8E2A16A179007EFEB0 /* App.Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.Delegate.swift; sourceTree = "<group>"; };
+		4CB15A912A16A313007EFEB0 /* NSWindow + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSWindow + Extension.swift"; sourceTree = "<group>"; };
+		4CB15A952A16A453007EFEB0 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		4CB15A972A16A48E007EFEB0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		4CB15A992A16A768007EFEB0 /* App.WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +105,12 @@
 		4CB15A5C2A169E0A007EFEB0 /* Paper Flow */ = {
 			isa = PBXGroup;
 			children = (
-				4CB15A5D2A169E0A007EFEB0 /* AppDelegate.swift */,
-				4CB15A5F2A169E0A007EFEB0 /* ViewController.swift */,
-				4CB15A612A169E0B007EFEB0 /* Assets.xcassets */,
-				4CB15A632A169E0B007EFEB0 /* Main.storyboard */,
+				4CB15A8B2A16A145007EFEB0 /* App */,
+				4CB15A892A16A08A007EFEB0 /* main.swift */,
+				4CB15A932A16A432007EFEB0 /* Common */,
+				4CB15A902A16A2F6007EFEB0 /* UserInterface */,
 				4CB15A662A169E0B007EFEB0 /* Paper_Flow.entitlements */,
+				4CB15A882A16A03C007EFEB0 /* Resource */,
 			);
 			path = "Paper Flow";
 			sourceTree = "<group>";
@@ -119,6 +130,50 @@
 				4CB15A7B2A169E0B007EFEB0 /* Paper_FlowUITestsLaunchTests.swift */,
 			);
 			path = "Paper FlowUITests";
+			sourceTree = "<group>";
+		};
+		4CB15A882A16A03C007EFEB0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A612A169E0B007EFEB0 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4CB15A8B2A16A145007EFEB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A8C2A16A156007EFEB0 /* App.swift */,
+				4CB15A8E2A16A179007EFEB0 /* App.Delegate.swift */,
+				4CB15A992A16A768007EFEB0 /* App.WindowController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4CB15A902A16A2F6007EFEB0 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A5F2A169E0A007EFEB0 /* EmptyViewController.swift */,
+				4CB15A912A16A313007EFEB0 /* NSWindow + Extension.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		4CB15A932A16A432007EFEB0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A942A16A445007EFEB0 /* Router */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4CB15A942A16A445007EFEB0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A972A16A48E007EFEB0 /* Router.swift */,
+				4CB15A952A16A453007EFEB0 /* Routable.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +281,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB15A622A169E0B007EFEB0 /* Assets.xcassets in Resources */,
-				4CB15A652A169E0B007EFEB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB15A602A169E0A007EFEB0 /* ViewController.swift in Sources */,
-				4CB15A5E2A169E0A007EFEB0 /* AppDelegate.swift in Sources */,
+				4CB15A9A2A16A768007EFEB0 /* App.WindowController.swift in Sources */,
+				4CB15A8F2A16A179007EFEB0 /* App.Delegate.swift in Sources */,
+				4CB15A962A16A453007EFEB0 /* Routable.swift in Sources */,
+				4CB15A602A169E0A007EFEB0 /* EmptyViewController.swift in Sources */,
+				4CB15A982A16A48E007EFEB0 /* Router.swift in Sources */,
+				4CB15A922A16A313007EFEB0 /* NSWindow + Extension.swift in Sources */,
+				4CB15A8D2A16A156007EFEB0 /* App.swift in Sources */,
+				4CB15A8A2A16A08A007EFEB0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,17 +347,6 @@
 			targetProxy = 4CB15A762A169E0B007EFEB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4CB15A632A169E0B007EFEB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CB15A642A169E0B007EFEB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4CB15A7D2A169E0B007EFEB0 /* Debug */ = {
@@ -426,12 +475,12 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.paperwave.Paper-Flow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,12 +502,12 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.paperwave.Paper-Flow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
