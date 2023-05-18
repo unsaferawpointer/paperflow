@@ -44,7 +44,7 @@ extension Router: Routable {
 extension Router {
 
 	func makeSidebarItem() -> NSSplitViewItem {
-		let item = NSSplitViewItem(sidebarWithViewController: EmptyViewController())
+		let item = NSSplitViewItem(sidebarWithViewController: Sidebar.Assembly.build())
 		item.minimumThickness = 200.0
 		item.titlebarSeparatorStyle = .none
 		return item

@@ -19,6 +19,10 @@
 		4CB15A962A16A453007EFEB0 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A952A16A453007EFEB0 /* Routable.swift */; };
 		4CB15A982A16A48E007EFEB0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A972A16A48E007EFEB0 /* Router.swift */; };
 		4CB15A9A2A16A768007EFEB0 /* App.WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A992A16A768007EFEB0 /* App.WindowController.swift */; };
+		4CB15AA02A16AEC0007EFEB0 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15A9F2A16AEC0007EFEB0 /* Sidebar.swift */; };
+		4CB15AA22A16AEED007EFEB0 /* Sidebar.ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15AA12A16AEED007EFEB0 /* Sidebar.ViewController.swift */; };
+		4CB15AA42A16AF57007EFEB0 /* Sidebar.Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15AA32A16AF57007EFEB0 /* Sidebar.Assembly.swift */; };
+		4CB15AA62A16B086007EFEB0 /* NSTableColumn + Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB15AA52A16B086007EFEB0 /* NSTableColumn + Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		4CB15A952A16A453007EFEB0 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		4CB15A972A16A48E007EFEB0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4CB15A992A16A768007EFEB0 /* App.WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.WindowController.swift; sourceTree = "<group>"; };
+		4CB15A9F2A16AEC0007EFEB0 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		4CB15AA12A16AEED007EFEB0 /* Sidebar.ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.ViewController.swift; sourceTree = "<group>"; };
+		4CB15AA32A16AF57007EFEB0 /* Sidebar.Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.Assembly.swift; sourceTree = "<group>"; };
+		4CB15AA52A16B086007EFEB0 /* NSTableColumn + Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTableColumn + Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				4CB15A892A16A08A007EFEB0 /* main.swift */,
 				4CB15A932A16A432007EFEB0 /* Common */,
 				4CB15A902A16A2F6007EFEB0 /* UserInterface */,
+				4CB15A9D2A16AE95007EFEB0 /* Units */,
 				4CB15A662A169E0B007EFEB0 /* Paper_Flow.entitlements */,
 				4CB15A882A16A03C007EFEB0 /* Resource */,
 			);
@@ -155,6 +164,7 @@
 			children = (
 				4CB15A5F2A169E0A007EFEB0 /* EmptyViewController.swift */,
 				4CB15A912A16A313007EFEB0 /* NSWindow + Extension.swift */,
+				4CB15AA52A16B086007EFEB0 /* NSTableColumn + Extentions.swift */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -174,6 +184,24 @@
 				4CB15A952A16A453007EFEB0 /* Routable.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		4CB15A9D2A16AE95007EFEB0 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A9E2A16AEAE007EFEB0 /* Sidebar */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		4CB15A9E2A16AEAE007EFEB0 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				4CB15A9F2A16AEC0007EFEB0 /* Sidebar.swift */,
+				4CB15AA32A16AF57007EFEB0 /* Sidebar.Assembly.swift */,
+				4CB15AA12A16AEED007EFEB0 /* Sidebar.ViewController.swift */,
+			);
+			path = Sidebar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,13 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB15AA62A16B086007EFEB0 /* NSTableColumn + Extentions.swift in Sources */,
 				4CB15A9A2A16A768007EFEB0 /* App.WindowController.swift in Sources */,
 				4CB15A8F2A16A179007EFEB0 /* App.Delegate.swift in Sources */,
 				4CB15A962A16A453007EFEB0 /* Routable.swift in Sources */,
+				4CB15AA42A16AF57007EFEB0 /* Sidebar.Assembly.swift in Sources */,
 				4CB15A602A169E0A007EFEB0 /* EmptyViewController.swift in Sources */,
 				4CB15A982A16A48E007EFEB0 /* Router.swift in Sources */,
 				4CB15A922A16A313007EFEB0 /* NSWindow + Extension.swift in Sources */,
+				4CB15AA22A16AEED007EFEB0 /* Sidebar.ViewController.swift in Sources */,
 				4CB15A8D2A16A156007EFEB0 /* App.swift in Sources */,
+				4CB15AA02A16AEC0007EFEB0 /* Sidebar.swift in Sources */,
 				4CB15A8A2A16A08A007EFEB0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
